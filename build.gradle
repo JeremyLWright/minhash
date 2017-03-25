@@ -13,6 +13,9 @@ buildscript {
 }
 
 apply plugin: 'kotlin'
+apply plugin: 'application'
+
+mainClassName = 'minhash.MainKt'
 
 repositories {
     mavenCentral()
