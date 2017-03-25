@@ -37,5 +37,6 @@ repositories {
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
     testCompile "org.jetbrains.spek:spek-api:1.1.0-beta4"
+    testCompile "org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version"
     testRuntime "org.jetbrains.spek:spek-junit-platform-engine:1.1.0-beta4"
 }
