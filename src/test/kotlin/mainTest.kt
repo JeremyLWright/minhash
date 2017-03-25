@@ -1,3 +1,5 @@
+package minhash
+
 fun testNothing() {
-    1
+    assert( firstFun() == 1);
 }
